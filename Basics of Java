@@ -1,0 +1,15 @@
+First name was "Green"-1991
+Second name was "OAK"-1991
+Third name was "Java"-1995--James Gosling 
+The Idea: Write once ,Run Anywhere(WORA)
+Versions :
+java 1.0 --JVM,core libraries,applets- launch "Jan 1996"-"Write once, Run Anywhere"
+Java 5 ---Geniric annotations,enums enhanced for loop
+DATA TYPES:
+Numeric data types are : INT, BYTE,LONG,SHORT,FLOAT,DOUBLE 
+String data types are: Char, String 
+Boolean-- true or false
+Rules and Regulations of variables:
+--java Keywords cannot be used
+--Don't start with Numeric values
+Scanner
