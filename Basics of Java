@@ -12,4 +12,39 @@ Boolean-- true or false
 Rules and Regulations of variables:
 --java Keywords cannot be used
 --Don't start with Numeric values
-Scanner
+Method Explanation 
+Scanner Method                            Example                             Return type
+nextInt()                                  25                                  int
+nextLong()                                 9876543210L                         long
+nextFloat()                                5.6f                                float
+nextDouble()                               250000.09                           double
+next()                                     Leela                               String
+nextLine()                                 Hello java                          String
+next().charAt(0)                           A                                   char
+nextBoolean()                              true                                boolean
+
+Example 1:
+import java.util.Scanner;
+class FirstProgram{
+    public static void main(String[] args){
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter your age, marks, result, grade, Total_marks and percentage");
+        int age=sc.nextInt();
+        float marks=sc.nextFloat();
+        sc.nextLine();
+        String result=sc.nextLine();
+        char grade=sc.next().charAt(0);
+        long Total_marks=sc.nextLong();
+        double percentage=sc.nextDouble();
+        System.out.println("Age: "+age);
+        System.out.println("Marks: "+marks);
+        System.out.println("Result: "+result);
+        System.out.println("Grade: "+grade);
+        System.out.println("Total Marks: "+Total_marks);
+        System.out.println("Percentage: "+percentage);
+        sc.close();
+    }
+}
+
+Arthimetic Operators: +,-,*,/,%
+
