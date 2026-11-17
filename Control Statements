@@ -119,6 +119,48 @@ public class Conditions {
 
 
 >switch
+Syntax:
+switch(condition){
+case 1: // block of code
+case 2: // block of code
+case n: // block of code
+}
+Example:
+import java.util.Scanner;
+public class Conditions {
+    public static void main(String[] args){
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the days");
+        int days=sc.nextInt();
+        switch(days){
+            case 1:
+                System.out.println("Today is Monday");
+                break;
+            case 2:
+                System.out.println("Today is Tuesday");
+                break;
+                case 3:
+                    System.out.println("today is wednesday");
+                    break;
+                    case 4:
+                        System.out.println("Today is thursday");
+                        break;
+                        case 5:
+                            System.out.println("Today is  friday");
+                            break;
+                            case 6:
+                                System.out.println("Today is saturday");
+                                break;
+                                case 7:
+                                    System.out.println("Today is Sunday");
+                                    break;
+                                    default:
+                                        System.out.println("Invalid day");
+
+        }
+    }
+}
+------------------------------------------------------------------------------------
 2. Looping statements
 >For
 >while
