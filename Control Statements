@@ -1,0 +1,15 @@
+----control statements----
+1. Conditional 
+>If 
+>Ifelse
+>elseif
+>nested if
+>switch
+2. Looping statements
+>For
+>while
+>Dowhile
+3.Jumping Statements
+>Continue
+>break
+>return
