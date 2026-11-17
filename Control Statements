@@ -125,7 +125,7 @@ case 1: // block of code
 case 2: // block of code
 case n: // block of code
 }
-Example:
+Example:1
 import java.util.Scanner;
 public class Conditions {
     public static void main(String[] args){
@@ -160,9 +160,145 @@ public class Conditions {
         }
     }
 }
+Example:2
+import java.util.Scanner;
+public class Conditions {
+    public static void main(String[] args){
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the months");
+       String months=sc.nextLine();
+        switch(months){
+            case "January":
+                System.out.println("January has 31 days");
+                break;
+            case "February":
+                System.out.println("February has 28 days");
+                break;
+            case "March":
+                System.out.println("March has 31 days");
+                break;
+            case "April":
+                System.out.println("April has 30 days");
+                break;
+            case "May":
+                System.out.println("May has 31 days");
+                break;
+            case "June":
+                System.out.println("June has 30 days");
+                break;
+            case "July":
+                System.out.println("July has 31 days");
+                break;
+            case "August":
+                System.out.println("August has 31 days");
+                break;
+            case "September":
+                System.out.println("September has 30 days");
+                break;
+            case "October":
+                System.out.println("October has 31 days");
+                break;
+            case "November":
+                System.out.println("November has 30 days");
+                break;
+            case "December":
+                System.out.println("December has 31 days");
+                break;
+            default:
+                System.out.println("Invalid month");
+
+        }
+    }
+}
+Example:3
+import java.util.Scanner;
+public class Conditions {
+    public static void main(String[] args){
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the branch name");
+       String branch=sc.nextLine();
+        switch(branch){
+            case "CSE":
+                System.out.println("CSE branch");
+                break;
+            case "ECE":
+                System.out.println("ECE branch");
+                break;
+            case "EEE":
+                System.out.println("EEE branch");
+                break;
+            case "CSD":
+                System.out.println("CSD branch");
+                break;
+            case "CAI":
+                System.out.println("CAI branch");
+                break;
+            case "CSC":
+                System.out.println("CSC branch");
+                break;
+            case "CS-AIML":
+                System.out.println("CS-AIML branch");
+                break;
+            default:
+                System.out.println("Invalid Branch");
+        }
+    }
+}
+Example:4
+import java.util.Scanner;
+public class Conditions {
+    public static void main(String[] args){
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the numbers");
+        int num1=sc.nextInt();
+        int num2=sc.nextInt();
+        int ope=sc.nextInt();
+        switch(ope){
+            case 1:
+                int add=num1+num2;
+                System.out.println("Addition: "+add);
+                break;
+            case 2:
+                int sub=num1-num2;
+                System.out.println("Subtraction: "+sub);
+                break;
+            case 3:
+                int mul=num1*num2;
+                System.out.println("Multiplication: "+mul);
+                break;
+            case 4:
+                if(num2!=0){
+                    double div=(double)num1/num2;
+                    System.out.println("Division: "+div);
+                }else{
+                    System.out.println("Error: Division by zero is not allowed.");
+                }
+                break;
+            default:
+                System.out.println("Invalid Operation");
+        }
+    }
+}
 ------------------------------------------------------------------------------------
 2. Looping statements
 >For
+Syntax:
+for(initialize,condition,increment/decrement){
+//block of code
+}
+Example:
+import java.util.Scanner;
+public class Conditions {
+    public static void main(String[] args){
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the numbers");
+        int num=sc.nextInt();
+        for(int i=1;i<=10;i++){
+            System.out.println(num +" *"  +i + "=" +num*i);
+        }
+    }
+}
+------------------------------------------------------------------------------------
 >while
 >Dowhile
 3.Jumping Statements
