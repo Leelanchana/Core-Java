@@ -462,3 +462,12 @@ Examples:
 >Continue
 >break
 >return
+ARRAYS:
+An array in Java is a collection of multiple values of the same data type stored in a single variable.
+Types of arrays:
+1.One-Dimentional array
+2.Two-Dimentional array
+3.Multi-Dimensional array
+Example:
+
+
